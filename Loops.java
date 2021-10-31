@@ -3,7 +3,7 @@ package Assignmnet;
 public class Loops {
 
 	public static void main(String[] args) {
-		int size = 3;
+		int size = 5;
 		int width = 0;
 		int center = size/2;
 		for(int i = 0; i<size/2; i++) {
@@ -11,7 +11,7 @@ public class Loops {
 			for(int j = 0;j<size;j++) {
 				
 				if(j>center-width && j<center+width) {
-					System.out.print("@");
+					System.out.print("/");
 				}
 				else {
 					System.out.print(" ");
